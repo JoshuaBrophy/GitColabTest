@@ -9,14 +9,21 @@ body {
     background-color: #f4f4f4;
 }
 
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+}
+
 .card {
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 350px;
     background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
+    margin: 20px;
 }
 
 .card:hover {
@@ -24,8 +31,20 @@ body {
 }
 
 .card-header {
-    height: 150px;
-    background-color: #3498db;
+    height: 120px;
+    background-size: cover;
+}
+
+.card1 {
+    background-image: url('https://placekitten.com/250/120');
+}
+
+.card2 {
+    background-image: url('https://placekitten.com/250/121');
+}
+
+.card3 {
+    background-image: url('https://placekitten.com/250/122');
 }
 
 .card-content {
@@ -39,3 +58,4 @@ h2 {
 p {
     color: #555;
 }
+
